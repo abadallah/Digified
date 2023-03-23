@@ -11,7 +11,7 @@ app.config['JSON_AS_ASCII'] = False
 
 cors = CORS(app, resources={r"*": {"origins": "*"}})
 
-model = tf.keras.models.load_model("results/ClassificationModel2.h5", custom_objects={'f1_metric': None})
+model = tf.keras.models.load_model("results/ClassificationModel.h5", custom_objects={'f1_metric': None})
 pickleFile = open("results/tokenizer.pkl", 'rb')
 tokenizer = pickle.load(pickleFile)
 
