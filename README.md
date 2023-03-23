@@ -34,7 +34,7 @@ ouput: {'Prediction': 'Fake', 'confidence': '0.85792416'}
 ```
 
 
-## Support the claom and resuls
+## Support the claims and resuls
 
 test the model with test data and this is the classifiaction report 
 ```
